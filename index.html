@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="form-container">
+            <h1>Login/register</h1>
+            <form action="https://httpbin.org/get" method="get">
+                <div class="control">
+                    <label for="name">UserName :</label>
+                    <input type="text" name="name" id="name" autocomplete="on" required>
+                </div>
+                <div class="control">
+                    <label for="password">Password :</label>
+                    <input type="password" name="psw" id="psw" autocomplete="on" required>
+                </div>
+                <span><input type="checkbox">Remember me.</span>
+                <div class="control">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+            <div class="link">
+                <a href="#">Forgot password ?</a>
+            </div>
+            <div class="link">
+                Don't have account : <a href="#">Register</a>
+            </div>
+        </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
